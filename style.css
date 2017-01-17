@@ -1,0 +1,250 @@
+/*width change*/
+
+.col-sm-9 {
+  width: 67%;
+}
+#sidebar {
+  width: 33%;
+}
+
+
+/* Banner setup */
+
+
+#banner .copy{
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width: 160px;
+  padding: 0;
+}
+
+#banner .intro{
+  font-size: 31px;
+}
+
+#banner .test{
+  padding: 30px 0 0;
+}
+
+
+#banner {
+  padding: 20px 0;
+}
+
+#banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+/* over all image setup */
+.image {
+    margin: 5px;
+}
+
+/* red highlights */
+.red {
+    color: red;
+}
+
+/* people.md formattings */
+/* avator setup */
+.avator {
+    margin: 5px;
+}
+
+/* 2-column setup */
+.begin-people ~ h2 {
+    width: 100%;
+    clear: both;
+}
+
+.begin-people ~ h3{
+    width: 100%;
+    clear: both;
+    font-size: 20px;
+}
+.begin-people ~ ul {
+    width: 85%;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 5rem;
+    clear: both;
+}
+
+.begin-people ~ p{
+    width: 95%;
+    float: left;
+    clear: left;
+    margin-bottom: 1rem;
+    padding-left: 30px;
+}
+
+.begin-people ~ p img{
+    width: 80%;
+}
+
+.end-people ~ p img{
+    width: auto;
+}
+
+.end-people ~ ul,
+.end-people ~ h3,
+.end-people ~ p {
+    width: auto;
+    float: none;
+    clear: none;
+}
+
+.end-people {
+    clear: both;
+}
+
+.begin-people2 ~ h2 {
+    width: 100%;
+    clear: both;
+}
+
+.begin-people2 ~ h3{
+    width: 100%;
+    clear: both;
+}
+.begin-people2 ~ ul {
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 5rem;
+    clear: both;
+}
+
+.begin-people2 ~ p{
+    width: 95%;
+    float: left;
+    clear: left;
+    margin-bottom: 1rem;
+}
+
+.begin-people2 ~ p img{
+    width: 80%;
+}
+
+.end-people2 ~ p img{
+    width: auto;
+}
+
+.end-people2 ~ ul,
+.end-people2 ~ h3,
+.end-people2 ~ p {
+    width: auto;
+    float: none;
+    clear: none;
+}
+
+.end-people2 {
+    clear: both;
+}
+
+
+/* research.md formattings */
+/* floating images setup, headlines shall be cleared */
+.begin-research ~ h2,
+.begin-research ~ h3 {
+    clear: both;
+}
+
+.begin-research ~ p.images {
+    float: right;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.begin-research ~ p {
+    hyphens: auto;
+}
+
+.begin-research ~ p img {
+    width: 100%;
+}
+
+.end-research ~ p.images {
+    float: none;
+    width: auto;
+    margin-left: auto;
+}
+
+.end-research ~ p img {
+    width: auto;
+}
+
+.end-research ~ p {
+    hyphens: none;
+}
+
+.end-research ~ h2,
+.end-research ~ h3 {
+    clear: none;
+}
+
+.end-research {
+    clear: both;
+}
+
+/* publication.md formattings */
+/* floating images setup, headlines shall be cleared */
+.begin-publication ~ h2,
+.begin-publication ~ h3,
+.begin-publication ~ h4 {
+    clear: both;
+}
+
+.begin-publication ~ p.images {
+    float: right;
+    width: 25%;
+    margin-left: 2%;
+}
+
+.begin-publication ~ p {
+    hyphens: auto;
+}
+
+.begin-publication ~ p img {
+    width: 100%;
+}
+
+.end-publication ~ p.images {
+    float: none;
+    width: auto;
+    margin-left: auto;
+}
+
+.end-publication ~ p img {
+    width: auto;
+}
+
+.end-publication ~ p {
+    hyphens: none;
+}
+
+.end-publication ~ h2,
+.end-publication ~ h3,
+.end-publication ~ h4 {
+    clear: none;
+}
+
+.end-publication {
+    clear: both;
+}
+
+/* Make h4 displayed as large as h3 in the context, for
+TOC generation ignores h4, but it should be displayed larger */
+
+.begin-publication ~ h4 {
+    font-size: 26px;
+}
+
+.end-publication ~ h4 {
+    font-size: 19px;
+}
+
+h5{
+  font-size: 20px;
+}
